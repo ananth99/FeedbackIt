@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Signup-FeedbackIt</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+    <!-- Add custom CSS here -->
+    <style>
+	body {margin-top: 60px;}
+    </style>
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">FeedbackIt</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li> <a href="create.html">Create </a> </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <div class="container">
+      <br>
+      <div class="row">
+          <div class="col-lg-4" style="float:none !important; margin:0 auto;">
+            <div class="well">
+              <form class="bs-example form-horizontal" id="feedback" style="float:none !important; margin:0 auto;">
+                <fieldset>
+                  <legend>Signup</legend>
+                  
+                  <div class="form-group">
+                    
+                    <div class="col-lg-12">
+                      <input type="text" class="form-control" id="name" placeholder="Name">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="col-lg-12">
+                      <input type="text" class="form-control" id="email" placeholder="Email">
+                    </div>
+                  </div>
+                  
+                  <div class="form-group">
+                    
+                    <div class="col-lg-12">
+                      <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    
+                    <div class="col-lg-12">
+                      <input type="password" class="form-control" id="confirm-password" placeholder="Confirm password">
+                    </div>
+                  </div>
+                  
+                  <div class="form-group">
+                    <div class="col-lg-12">
+                      <button type="submit" class="btn btn-success col-lg-3 col-lg-offset-2">Submit</button> 
+                      <button class="btn btn-default col-lg-3 col-lg-offset-2">Cancel</button> 
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+
+         <!-- Can add image later. <div class="col-md-6" style="float:left;">
+          <img class="img-responsive" src="images/TamilNaduLogo.png">
+        </div> -->
+  
+      
+
+    </div><!-- /.container -->
+
+    <div class="container" style="position:absolute; bottom:0; text-align:center;"> 
+      
+      <footer>
+       
+        <div class="row">
+    
+          <div class="col-lg-6" style="float:left;">
+            <p>Copyright &copy; Tamil Nadu Government</p>
+          </div>
+
+          <div class="col-lg-6" style="float:left;">
+            <ul class="list-unstyled list-inline list-social-icons" style="text-align:right;">
+              <li class="tooltip-social facebook-link"><a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+              <li class="tooltip-social linkedin-link"><a href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+              <li class="tooltip-social twitter-link"><a href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+              
+            </ul>
+        </div>
+      </div>
+      </footer>
+
+    </div><!-- /.container -->
+
+    <!-- JavaScript -->
+    <!--<script src="js/jquery-1.10.2.js"></script> -->
+    <script src="js/bootstrap.js"></script>
+    <script>
+      $(function() {
+      $("#feedback-date").datepicker();
+      });
+    </script>
+
+  </body>
+</html>
